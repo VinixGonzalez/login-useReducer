@@ -1,0 +1,54 @@
+.container {
+  width: 350px;
+  border: 1px solid #fff;
+  background: #fff;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.title {
+  text-align: center;
+  margin: 12px 0;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.button {
+  padding: 0.5rem;
+  border: transparent;
+  border-radius: 20px;
+  background: #282a36;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.button:hover {
+  background: #282a3650;
+}
+
+.button:disabled {
+  background: #282a3650;
+}
+
+.errorContainer {
+  margin: 20px 0;
+  color: #ff0000;
+}
+
+.welcomeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
